@@ -1,0 +1,54 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Art/Startnew2.png" type="Texture" id=1]
+[ext_resource path="res://TitlePage.gd" type="Script" id=2]
+[ext_resource path="res://Art/startnew.png" type="Texture" id=3]
+[ext_resource path="res://Art/newexit3.png" type="Texture" id=4]
+[ext_resource path="res://Art/newexit2.png" type="Texture" id=5]
+[ext_resource path="res://Art/newexit.png" type="Texture" id=6]
+[ext_resource path="res://Art/Startnew3.png" type="Texture" id=7]
+[ext_resource path="res://Art/space.png" type="Texture" id=8]
+[ext_resource path="res://Art/Screenshot_2023-03-25_142530-removebg-preview.png" type="Texture" id=9]
+
+[node name="TitlePage" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="." groups=["titlepage"]]
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 683.0
+margin_bottom = 420.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 8 )
+
+[node name="TextureRect2" type="TextureRect" parent="." groups=["titlepage"]]
+margin_left = 72.0
+margin_top = 160.0
+margin_right = 664.0
+margin_bottom = 216.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 9 )
+
+[node name="Start" type="TextureButton" parent="." groups=["titlepage"]]
+margin_left = 230.0
+margin_top = 376.0
+margin_right = 408.0
+margin_bottom = 440.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 7 )
+texture_hover = ExtResource( 1 )
+
+[node name="Exit" type="TextureButton" parent="." groups=["titlepage"]]
+margin_left = 627.0
+margin_top = 377.0
+margin_right = 803.0
+margin_bottom = 440.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 4 )
+texture_hover = ExtResource( 5 )
+
+[connection signal="startGame" from="." to="." method="_start"]
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_Exit_pressed"]

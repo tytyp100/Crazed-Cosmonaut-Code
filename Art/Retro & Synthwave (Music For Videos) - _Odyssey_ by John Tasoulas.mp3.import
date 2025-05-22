@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Retro & Synthwave (Music For Videos) - _Odyssey_ by John Tasoulas.mp3-a47b0583dd2b704e3925aefde85e6cb2.mp3str"
+
+[deps]
+
+source_file="res://Art/Retro & Synthwave (Music For Videos) - _Odyssey_ by John Tasoulas.mp3"
+dest_files=[ "res://.import/Retro & Synthwave (Music For Videos) - _Odyssey_ by John Tasoulas.mp3-a47b0583dd2b704e3925aefde85e6cb2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

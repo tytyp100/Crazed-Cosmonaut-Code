@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/blaster-2-81267.mp3-145dca5f121e664340358938d99e9a9e.mp3str"
+
+[deps]
+
+source_file="res://Art/Laser/blaster-2-81267.mp3"
+dest_files=[ "res://.import/blaster-2-81267.mp3-145dca5f121e664340358938d99e9a9e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

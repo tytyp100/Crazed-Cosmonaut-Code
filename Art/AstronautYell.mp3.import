@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AstronautYell.mp3-299471a1c1027ec045788913699e76a2.mp3str"
+
+[deps]
+
+source_file="res://Art/AstronautYell.mp3"
+dest_files=[ "res://.import/AstronautYell.mp3-299471a1c1027ec045788913699e76a2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

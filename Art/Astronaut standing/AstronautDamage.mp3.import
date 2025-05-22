@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AstronautDamage.mp3-9d40123ba829d606b86c1b1cc25537dc.mp3str"
+
+[deps]
+
+source_file="res://Art/Astronaut standing/AstronautDamage.mp3"
+dest_files=[ "res://.import/AstronautDamage.mp3-9d40123ba829d606b86c1b1cc25537dc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
